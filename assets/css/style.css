@@ -1,20 +1,28 @@
 /*======== Fonts ========*/
 h1, h2, h3, h4, h5, h6{
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
 }
-p {font-family: 'Georgia', Times, Times New Roman, serif;}
-/*======== Entire ========*/
-.entire{
-    
+p {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777
 }
-
+/*======== Inserting this to make header and footer full-width ========*/
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header {
+    margin: 0;
+  }
 /*======== Header ========*/
 
 .header {
 
-    background: rgb(207, 207, 207);
-    color: green;
+    background: #ffffff;
     padding: 30px 0;
+    border-bottom: solid 1px #cccccc;
 }
 
 .header-name {
@@ -29,6 +37,7 @@ p {font-family: 'Georgia', Times, Times New Roman, serif;}
     background: white;
     margin: 5% 10%;
     padding: 20px 10px;
+    border: solid 1px #dddddd;
 }
 
 .content .content-header   {
@@ -39,7 +48,6 @@ p {font-family: 'Georgia', Times, Times New Roman, serif;}
 
 .footer {
     text-align: center;
-    background: rgb(207, 207, 207);
-    color: green;
+    background: #666666;
     padding: 30px 0;
 }
