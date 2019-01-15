@@ -1,0 +1,45 @@
+/*======== Fonts ========*/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+p {font-family: 'Georgia', Times, Times New Roman, serif;}
+/*======== Entire ========*/
+.entire{
+    
+}
+
+/*======== Header ========*/
+
+.header {
+
+    background: rgb(207, 207, 207);
+    color: green;
+    padding: 30px 0;
+}
+
+.header-name {
+    align: left;
+}
+.header .main-menu {
+    float: right;
+}
+/*======== Content ========*/
+
+.content{
+    background: white;
+    margin: 5% 10%;
+    padding: 20px 10px;
+}
+
+.content .content-header   {
+
+}
+
+/*======== Footer ========*/
+
+.footer {
+    text-align: center;
+    background: rgb(207, 207, 207);
+    color: green;
+    padding: 30px 0;
+}
