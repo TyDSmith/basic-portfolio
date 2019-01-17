@@ -5,3 +5,4 @@ Homework assignment to create a basic portfolio using html/css
 * Sticky footer
 * Building a page from scratch (with the exception of the contact form)
 * Git pull function
+* Testing git functions
