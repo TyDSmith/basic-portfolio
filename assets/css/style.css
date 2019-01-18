@@ -77,6 +77,7 @@ height: 100vh;
     background: white;
     /* margin: 5% 10%; */
     margin: 5% auto;
+    min-height: 65vh;
     max-width: 960px;
     padding: 20px 10px;
     border: solid 1px #dddddd;
@@ -140,6 +141,43 @@ input[type=text], select, textarea {
   }
 
 
+/*======== Portfolio ========*/
+.portfolio-images li{
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+.image-text{
+    position: absolute;
+  
+    transform: translate(-50%, -50%);
+}
+.portfolio-item-1{
+    width: 400px;
+    height: 200px;
+    background-image: url("http://lorempixel.com/400/200/");
+}
+.portfolio-item-2{
+    width: 400px;
+    height: 200px;
+    background-image: url("http://lorempixel.com/400/200/");
+}
+.portfolio-item-3{
+    width: 400px;
+    height: 200px;
+    background-image: url("http://lorempixel.com/400/200/");
+}
+.portfolio-items h4{
+ color: goldenrod;
+ text-align: center;
+ font-size: 2em;
+ background: #4aaaa5;
+
+}
+
+
+
   /*Media screens*/
   @media only screen and (max-width: 700px){
     .header {
@@ -151,8 +189,4 @@ input[type=text], select, textarea {
     .header {
         padding: 5px 2.5%;
     }
-  }
-
-  @media only screen and (min-width: 800px) {
-    
   }
